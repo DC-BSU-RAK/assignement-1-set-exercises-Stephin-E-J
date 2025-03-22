@@ -4,24 +4,26 @@
     box-sizing: border-box;
 }
 
+/* Body Styling*/ 
 body { 
     font-family: Arial;
-    line-height: 1.6;
-    background-color: #000000;
-    color: #fff;
+    line-height: 1.6; /* Increasing Line Spacing*/
+    background-color: #0f0b44; /*Background color*/
+    color: #fff;  /* Color for contrst*/
 }
 
+/* Header Styling*/
 header {
-    background-color: #333;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%; 
-    top: 0;
-    z-index: 1000;
+    background-color: #0f0941;
+    padding: 10px 0; /* Padding provides space between elements and its border*/
+    position: fixed;/* Header to stay at the top of the page */
+    width: 100%; /* For the header to stretch to the width of the page*/
+    top: 0; /*To postion the header at the top*/
+    z-index: 1000; /*The header stay on top of other elements*/
 }
 
+/*Navigation Styling */
 nav ul{
-    float: left;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,15 +31,13 @@ nav ul{
 
 ul li{
     list-style: none;
-    margin-left: 62px;
-    margin-top: 27px;
+    margin-left: 30px;
     font-size: 18px;
 }
 
 ul li a{
     text-decoration: none;
     color: #fff;
-    font-family: Arial;
     font-weight: bolder;
     transition: 0.4s ease;
 }
@@ -52,3 +52,8 @@ section {
     background-color: #282828;
     border-bottom: 2px solid #444;
 }
+
+ul {
+    margin-top: 1rem;
+}
+
