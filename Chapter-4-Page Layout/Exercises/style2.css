@@ -36,11 +36,29 @@ body{
     line-height: 1.6;
 }
 
-.abc{
-    background-color:#172d67;
+.main{
+    float: left;
 }
+
+.computer{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.Image::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
 footer{
     background-color: #8c15e9;
     color: #FFFFFF;
     text-align: center;
+}
+
+aside{
+    background-color: #172d67;
 }
