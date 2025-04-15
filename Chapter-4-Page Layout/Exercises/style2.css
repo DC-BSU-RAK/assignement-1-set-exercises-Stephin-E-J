@@ -1,5 +1,5 @@
-* {
-    box-sizing: border-box;
+.logo{
+    text-align: center;
 }
 
 header{
@@ -14,13 +14,14 @@ nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
 }
 
 ul li{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
 ul li a{
@@ -34,31 +35,36 @@ ul li a{
 body{ 
     font-family: Arial;
     line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
-.main{
-    float: left;
+main aside{
+    background-color: #172d67;
+    float: right;
+    width: 30%;
+    padding: 20px;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.Image {
+    display: flex;
+    gap: 10px;
 }
 
 .computer{
     float: left;
     width: 33.33%;
     padding: 5px;
+    flex: 1;
 }
-
-.Image::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 
 footer{
     background-color: #8c15e9;
     color: #FFFFFF;
     text-align: center;
-}
-
-aside{
-    background-color: #172d67;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
