@@ -13,8 +13,6 @@ body{
     background-color: rgb(109, 105, 105);
     padding: 30px;
     width: 450px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px #f7f5f59c;
 }
 
 h1{
@@ -52,6 +50,9 @@ button{
     font-size: 17px;
     width: 100%;
     cursor: pointer;
+}
+button:hover{
+    color: orangered;
 }
 
 #result {
