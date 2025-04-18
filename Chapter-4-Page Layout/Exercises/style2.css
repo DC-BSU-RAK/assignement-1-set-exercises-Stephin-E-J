@@ -1,70 +1,100 @@
-.logo{
+/*Designing the logo*/
+.logo {
     text-align: center;
 }
 
-header{
+/*Decorating the header*/
+header {
     background-color: #17072b;
     width: 100%;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
     color: #FFFFFF;
 }
 
-nav ul{
+/*For placing the navigation links*/
+nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0;
+    list-style: none;
 }
 
-ul li{
+/*For spacing the nav*/
+ul li {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 15px;
 }
 
-ul li a{
+/*For the nav text design*/
+ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #FFFFFF;
     font-weight: bolder;
     font-size: 1.2rem;
     transition: 0.4s ease;
 }
 
-body{ 
+/*The main bodys text and spacing*/
+body { 
     font-family: Arial;
-    line-height: 1.6;
+    line-height: 1.5;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-main aside{
+/*To make main flexiable */
+main {
+    display: flex;
+    flex: 1; /*flex is used for shrink and grow*/
+    padding: 5px;
+}
+
+/*Make sure to move section to the left side*/
+.content {
+    flex: 70%;
+    padding-right: 10px;
+}
+
+/*The side tag design*/
+aside {
     background-color: #172d67;
-    float: right;
-    width: 30%;
+    color: white;
+    flex: 30%;
     padding: 20px;
-    padding-left: 0.5rem;
-    margin-left: 0.5rem;
 }
 
+/*The aside tag images design*/
 .Image {
     display: flex;
     gap: 10px;
+    margin-top: 15px;
 }
 
-.computer{
-    float: left;
-    width: 33.33%;
-    padding: 5px;
+/*Image flexiablity*/
+.computer {
     flex: 1;
 }
 
-footer{
+/*Image size*/
+.computer img {
+    width: 100%;
+    height: auto;
+}
+
+/*The footer tag placement and design*/
+footer {
     background-color: #8c15e9;
     color: #FFFFFF;
     text-align: center;
+    padding: 5px;
     width: 100%;
-    position: fixed;
-    bottom: 0;
+    position: fixed;/*This used to fix the postion*/
+    bottom: 0;/*This is to keep at the bottom*/
 }

@@ -1,4 +1,9 @@
+/*Display settings*/
 body{
     background-color: aliceblue;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
+

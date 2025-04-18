@@ -3,57 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Layout</title>
     <link rel="stylesheet" href="style2.css">
-
+    <title>Page Layout</title>
 </head>
 <body>
     <div><!--The div tag is defined as a division or a section-->
-        <header><!--This tag is used for an introduction-->
-                <div class="logo"> <!--class is used to name a tag -->
-                    <u><h1>DIGI FEST 2022</h1></u><!--u tag is underline tag-->
-                </div>
+        <header><!--This tag is used for an introduction for titles or navigation links-->
+            <div class="logo"><!--class is used to name a tag -->
+                <b><u><h1>DIGI FEST 2022</h1></u></b><!--u tag is underline tag-->
+            </div>
             
             <nav><!--nav is know as Navigation links-->
                 <ul><!--ul is unorder list it uses dots-->
                     <li><a href="#Home">Home</a></li><!--li is lists -->
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#What's On">What's On</a></li>       
+                    <li><a href="#About">About</a></li><!--The a element with its href attribute it is URL for the page-->
+                    <li><a href="#What's On">What's On</a></li>
                     <li><a href="#Contact">Contact</a></li>
                     <li><a href="#Tickets">Tickets</a></li>
                 </ul>
             </nav>
         </header>
         
-        <main>
-            <section>
-                    <b><u><h1>Welcome</h1></u></b>
-                        <p>Digi Fest is a celebration of digital and technology in the city of Cardiff. 
-                        This year, we are <br>celebrating 'collaboration', so come and find out about the latest 
-                        collaborations that are <br> happening in this historic and innovative city.
-                        They promise an educational and <br> inspirational packed programme for all. 
-                        </p>
-                    <img src="https://miro.medium.com/v2/resize:fit:1400/0*7VyEZgzwUhQMeBqb" width="500" height="300" alt="">
+        <main><!--The main tag is for the main content of the page-->
+            <section class="content"><!--Section tag defines the section of the content-->
+                <b><u><h1>Welcome</h1></u></b><!--b tag is bold--><!--h1 tag is for the heading-->
+                <p>Digi Fest is a celebration of digital and technology in the city of Cardiff. 
+                This year, we are <br> celebrating 'collaboration', so come and find out about the latest 
+                collaborations that are <br> happening in this historic and innovative city.<!--br tag is a line breaker-->
+                They promise an educational and <br> inspirational packed programme for all. 
+                </p>
+                <img src="https://miro.medium.com/v2/resize:fit:1400/0*7VyEZgzwUhQMeBqb" width="800" height="300" alt="Coding">
+            </section><!--An image tag is used for uploading an image-->
 
-                <aside>
-                    <h2>Line Up</h2>
-                    - Introduction to HTML and CSS <br>
-                    - Link and images <br>
-                    - Page Layout <br>
-                    <div class="Image">
-                     <div class="computer">
-                        <img src="Computer.jpg" width="200" height="200" alt="Computer System">
+            <aside><!--Aside tag is used for something that is indirectly related to the main article-->
+                <b><u><h2>Line Up</h2></u></b>
+                - Introduction to HTML and CSS <br>
+                - Link and images <br>
+                - Page Layout <br>
+                <div class="Image"><!--with div tag you add two images together-->
+                    <div class="computer">
+                        <img src="Computer.jpg" alt="Computer System">
                     </div>
                     <div class="computer">
-                        <img src="Computer1.jpg" width="200" height="200" alt="">
+                        <img src="Computer1.jpg" alt="Data System">
                     </div>
-                    </div>  
-                </aside>
-            </section>
+                </div>  
+            </aside>
         </main>    
     </div>
 
-    <footer>
+    <footer><!--footer tag is used at the end for copyright-->
         Copyright &copy; 2022 DigiFest Ltd.
     </footer>
 </body>
