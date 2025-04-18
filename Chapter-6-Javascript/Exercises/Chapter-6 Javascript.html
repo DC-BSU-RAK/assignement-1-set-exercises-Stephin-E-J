@@ -14,16 +14,24 @@
         <!--This is for the cost of liter-->
         <div class="Petrol">
             <label for="costPerLiter">Cost per liter($)</label><!--The lable tag represents a caption for an item-->
+            <!--Input tag is where the user can write-->
             <input type="number" id="price" min="0" step="0.01" value="1.72">
+            <!--min also known as minimum identify value for input element-->
+            <!--step is used for space between numbers while add or lessing-->
+            <!--value will be the number show in the beginning-->
         </div>
 
-        <!---->
+        <!--Now for the liters bought-->
         <div class="Petrol">
             <label for="liters">Liters purchased:</label>
+            <!--for is for which form element a lable is given to it-->
             <input type="number" id="liter" min="0" value="0">
+            <!--id attribute is used define a single element-->
         </div>
-
+        
+        <!--button tag gives the result when clicked-->
         <button onclick="calculateTotal()">Calculate</button>
+        <!--onclick- when the user clicks the button this fuction gives the ans from javascript-->
 
         <p id="totalCost">Total cost: $0.00</p>
     </div>
